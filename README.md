@@ -1,9 +1,9 @@
 # fil3d
 
-**fil3d** is a Python package for identifying and analyzing coherent three-dimensional (3D) filamentary or cloud-like structures in 3D datasets (e.g., position–position–velocity gas emission cubes).  
+**fil3d** is a Python package for identifying and analyzing coherent three-dimensional (3D) filamentary or cloud-like structures in data cubes (e.g., position–position–velocity emission data).  
 It provides an efficient and modular framework to extract 2D masks from individual slices, connect them across a third dimension, and analyze their morphological, kinematic, and statistical properties.
 
-Originally developed for radio astronomical data, **fil3d** can be applied to any volumetric dataset representing diffuse structures — from interstellar gas to simulated scalar fields.
+Originally developed for radio astronomical data, **fil3d** can be applied to any volumetric dataset representing diffuse structures.
 
 ---
 
