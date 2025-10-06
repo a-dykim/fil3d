@@ -28,7 +28,7 @@ pip install fil3d
 Command-Line Interface
 
 The package includes a command-line tool to detect and link structures directly from 3D FITS cubes.
-
+```bash
 fil3d-find-trees \
   --fits cube.fits \
   --save-nodes nodes.pkl \
@@ -36,7 +36,7 @@ fil3d-find-trees \
   --thr 0.85 \
   --v-start 500 \
   --v-end 1400
-
+```
  | Flag                   | Description                                       |
 | ---------------------- | ------------------------------------------------- |
 | `--fits`               | Path to input FITS cube (`nv × ny × nx`)          |
@@ -47,8 +47,9 @@ fil3d-find-trees \
 | `--log-level`          | Logging verbosity (`DEBUG`, `INFO`, etc.)         |
 
 Example Run: 
+```bash
 fil3d-find-trees --fits data/GASKAP.fits --thr 0.8 --save-trees trees.pkl
-
+```
 
 ## 🧪 Example Workflow
 1. Preprocess and extract masks
@@ -75,22 +76,20 @@ If you use fil3d in your research, please cite:
 Kim, D. A. (2023), The kinematic structure of magnetically aligned H I filaments.
 DOI: 10.1093/mnras/stad2792
 
-BibTeX:
+```bibtex
 @ARTICLE{2023MNRAS.526.4345K,
-       author = {{Kim}, Doyeon A. and {Clark}, S.~E. and {Putman}, M.~E. and {Li}, Larry},
-        title = "{The kinematic structure of magnetically aligned H I filaments}",
-      journal = {\mnras},
-     keywords = {ISM: clouds, ISM: kinematics and dynamics, ISM: magnetic fields, ISM: structure, Astrophysics - Astrophysics of Galaxies, Astrophysics - Solar and Stellar Astrophysics},
-         year = 2023,
-        month = dec,
-       volume = {526},
-       number = {3},
-        pages = {4345-4358},
-          doi = {10.1093/mnras/stad2792},
-archivePrefix = {arXiv},
-       eprint = {2309.10777},
- primaryClass = {astro-ph.GA},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2023MNRAS.526.4345K},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+  author       = {{Kim}, Doyeon A. and {Clark}, S.~E. and {Putman}, M.~E. and {Li}, Larry},
+  title        = "{The kinematic structure of magnetically aligned H I filaments}",
+  journal      = {MNRAS},
+  year         = 2023,
+  month        = dec,
+  volume       = {526},
+  number       = {3},
+  pages        = {4345–4358},
+  doi          = {10.1093/mnras/stad2792},
+  archivePrefix= {arXiv},
+  eprint       = {2309.10777},
+  primaryClass = {astro-ph.GA},
+  adsurl       = {https://ui.adsabs.harvard.edu/abs/2023MNRAS.526.4345K},
 }
-
+```
