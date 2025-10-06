@@ -7,7 +7,7 @@ Originally developed for radio astronomical data, **fil3d** can be applied to an
 
 ---
 
-🔍 Key Features
+## 🔍 Key Features
 
 - **3D structure detection** — identifies coherent 3D features from 2D slices  
 - **Flexible linking algorithm** — connects masks across slices based on overlap fraction.   
@@ -68,7 +68,7 @@ from fil3d.cli.find_trees import run_and_save_trees
 
 run_and_save_trees(nodes, save_path="trees.pkl", overlap_thresh=0.85)
 ```
-📘 Citation
+##  📘 Citation
 
 If you use fil3d in your research, please cite:
 Kim, D. A. (2023), The kinematic structure of magnetically aligned H I filaments.
