@@ -6,7 +6,7 @@ README = (Path(__file__).parent / "README.md").read_text(encoding="utf-8")
 setup(
     name="fil3d",
     version="0.1.0",
-    description="Detect and analyze coherent 3D filamentary structures in 3D data cubes.",
+    description="Detect and analyze coherent 3D filamentary structures in data cubes.",
     long_description=README,
     long_description_content_type="text/markdown",
     author="Doyeon Avery Kim & Larry Li",
