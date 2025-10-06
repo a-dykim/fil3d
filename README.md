@@ -10,10 +10,8 @@ Originally developed for radio astronomical data, **fil3d** can be applied to an
 🔍 Key Features
 
 - **3D structure detection** — identifies coherent 3D features from 2D slices  
-- **Flexible linking algorithm** — connects masks across slices based on overlap  
-- **Modular architecture** — `MaskObjNode` and `MaskObjNodeTree` as reusable data structures  
+- **Flexible linking algorithm** — connects masks across slices based on overlap fraction.   
 - **CLI tools** — command-line workflow for FITS cubes (`fil3d-find-trees`)  
-- **Data-driven** — designed to integrate with ML-based inference and visualization tools  
 - **Lightweight dependencies** — built on NumPy, Astropy, and FilFinder  
 
 ---
